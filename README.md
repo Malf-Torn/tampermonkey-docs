@@ -1,8 +1,6 @@
 # Tampermonkey Scripts - Documentation
 
-Welcome! This repository contains the documentation and screenshots for my Tampermonkey scripts.
-
-**Please note:** The actual source code for these scripts is not stored in this repository. This repository solely serves as a manual on how to use and configure them.
+Welcome! This repository contains the documentation and screenshots for my Tampermonkey scripts. This repository serves as a manual on how to use and configure them.
 
 ## 📂 Available Script Guides
 
