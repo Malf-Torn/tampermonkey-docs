@@ -8,7 +8,7 @@ Welcome! This repository contains the documentation and screenshots for my Tampe
 
 Here you can find the detailed instructions for each script:
 
-* **[Revive Contract Helper](./Revive-Contract-Helper/README.md)**  
+* **[Revive Contract Helper](./revive-contract-helper/README.md)**  
   *Manages revive contracts, prevents accidental revives, and optimizes the UI for maximum speed.*
 
 
