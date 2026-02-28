@@ -66,5 +66,26 @@ Instead of adding factions one by one, you can import them directly from your Di
 3. Click **Process Import**.
 4. **Important:** Click the **Save** button in the main settings menu to actually apply and save your newly imported contracts!
 
-![Import View](img/import_contracts.png)
-**Supported Formats:** The script's smart parser understands both raw Markdown (`## [Faction Name](url)...`) and copied plain text (`Faction Name vs Enemy...`), as long as the percentage is formatted as `.. XX%++`. Duplicate entries are automatically skipped.
+![Import View](img/import_contracts.png)  
+
+**Supported Formats Details:**
+The smart parser reads the text line by line and pairs a **Target Name** with a **Percentage**. If you use a different layout and have issues importing it, you can easily adapt your announcements or write a custom list. The parser looks for two components in order:
+
+* **Step 1: The Name**
+    * *Option A (Markdown):* Start the line with `## [` followed by the name. 
+        *Example:* `## [Target Faction](https://www.torn.com/...)`
+    * *Option B (Plain Text):* Put the exact string ` vs ` right after the name. 
+        *Example:* `Target Faction vs Enemy Faction`
+* **Step 2: The Percentage**
+    * On a line *following* the name, the script looks for the word `Conditions:` (Markdown bolding like `**Conditions**:` is fully supported).
+    * On that same line, it requires the exact pattern `.. XX%++` (where XX is the minimum required chance).
+
+**Minimal Custom Example:**
+If you want to manually type up a quick import list, it just needs to look like this:
+
+```text
+Target Faction vs Anyone
+Conditions: anything here .. 50%++
+
+Specific Player Name vs Anyone
+Conditions: .. 20%++
