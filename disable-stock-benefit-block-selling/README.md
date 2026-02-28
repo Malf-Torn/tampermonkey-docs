@@ -2,6 +2,10 @@
 
 A Tampermonkey script for Torn that protects your stock benefit blocks. It prevents you from accidentally selling shares if doing so would cause you to lose an active benefit block or your current dividend progress.
 
+## Installation
+
+[Download from GreasyFork](https://greasyfork.org/de/scripts/564533-disable-stock-benefit-block-selling)
+
 ## Features
 
 * **Accident Prevention:** Automatically disables the "Confirm Transaction" button if selling would break a benefit block.

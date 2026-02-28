@@ -2,6 +2,10 @@
 
 A Tampermonkey script for Torn designed for revivers. RCH helps you manage revive contracts, prevents accidental revives below the contracted percentage, and optimizes the UI for faster, misclick-free reviving.
 
+## Installation
+
+[Download from GreasyFork](https://greasyfork.org/de/scripts/565999-revive-contract-helper)
+
 ## Features
 
 * **Smart Revive Protection:** Automatically hides the "Yes" button if the target's revive chance is below their contract limit or if early discharge is available.

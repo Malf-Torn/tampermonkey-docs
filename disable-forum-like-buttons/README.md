@@ -2,6 +2,10 @@
 
 A straightforward Tampermonkey script for Torn that completely removes the Like and Dislike buttons from all forum posts. This tool is designed to save you from accidental misclicks while scrolling and the unnecessary drama that can sometimes follow an accidental downvote.
 
+## Installation
+
+[Download from GreasyFork](https://greasyfork.org/de/scripts/564559-disable-forum-like-buttons)
+
 ## Features
 
 * **Accident Prevention:** Completely hides both the "Like" and "Dislike" buttons on all forum posts.
