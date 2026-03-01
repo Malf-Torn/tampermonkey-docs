@@ -12,6 +12,9 @@ Here you can find the detailed instructions for each script:
 * **[Disable Stock Benefit Block Selling](./disable-stock-benefit-block-selling/README.md)**  
   *Prevents you from accidentally selling shares and protects your stock benefit blocks.*
 
+* **[Faction Revive Monitor](./faction-revive-monitor/README.md)**  
+  *Automatically monitors a faction's members to find revivable targets. Can be used for Watch Online contracts.*
+
 * **[Revive Contract Helper](./revive-contract-helper/README.md)**  
   *Manages revive contracts, prevents accidental revives, and optimizes the UI for maximum speed.*
 
