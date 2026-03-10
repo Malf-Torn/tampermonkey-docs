@@ -6,6 +6,9 @@ Welcome! This repository contains the documentation and screenshots for my Tampe
 
 Here you can find the detailed instructions for each script:
 
+* **[Arson Gasoline Igniter](./arson-gasoline-igniter/README.md)**  
+  *Adds compact helper buttons to the Arson crime interface, allowing you to select your required items much faster without having to move your mouse back and forth.*
+
 * **[Disable Forum Like Buttons](./disable-forum-like-buttons/README.md)**  
   *Completely hides the Like and Dislike buttons in the forums. This reliably prevents accidental clicks and saves you from unnecessary drama with sensitive players.*
 
