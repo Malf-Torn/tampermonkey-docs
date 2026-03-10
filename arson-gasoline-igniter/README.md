@@ -4,7 +4,7 @@ It is a straightforward, quality-of-life Tampermonkey script for Torn's Arson Cr
 
 ## Installation
 
-[Download from GreasyFork](ADD_LINK_HERE)
+[Download from GreasyFork](https://greasyfork.org/de/scripts/569219-arson-gasoline-igniter)
 
 ## Features
 
